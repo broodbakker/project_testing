@@ -1,0 +1,4 @@
+.yarn
+.next
+dest
+node_modules
