@@ -17,7 +17,7 @@ function usePhotos() {
 
 const Calendar = () => {
   const [month, setMonth] = useState<'jan' | 'feb' | 'march'>('jan');
-  const { data, isLoading, isError } = usePhotos();
+  const { data } = usePhotos();
 
   console.log(data, 'data');
 

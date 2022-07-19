@@ -41,7 +41,7 @@ export const Card = ({ cardData }: ICard) => {
         />
 
         <Box p="6">
-          <Box d="flex" alignItems="baseline"></Box>
+          <Box alignItems="baseline"></Box>
           <Flex mt="1" justifyContent="space-between" alignContent="center">
             <Box
               fontSize="2xl"

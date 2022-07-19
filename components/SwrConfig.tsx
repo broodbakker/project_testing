@@ -2,7 +2,7 @@ import { ReactNode } from 'react';
 import { Cache, SWRConfig } from 'swr';
 import { Fetcher, PublicConfiguration } from 'swr/dist/types';
 
-type Provider = { provider?: (cache: Readonly<Cache<any>>) => Cache<any> };
+type Provider = { provider?: () => Cache<any> };
 
 export function MySwrConfig({
   children,

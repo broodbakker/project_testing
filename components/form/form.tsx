@@ -7,7 +7,7 @@ import {
   Heading,
   Input,
   Stack,
-  useColorModeValue,
+  useColorModeValue
 } from '@chakra-ui/react';
 import { useState } from 'react';
 
@@ -17,9 +17,9 @@ export interface IFormValues {
   password: string;
 }
 
-interface IForm {
-  onSubmit: (formValues: IFormValues) => void;
-}
+// interface IForm {
+//   onSubmit: (formValues: IFormValues) => void;
+// }
 
 const Form = ({ onSubmit }) => {
   const [values, setValues] = useState<IFormValues>({

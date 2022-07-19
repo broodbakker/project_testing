@@ -19,6 +19,7 @@
     "React": "readonly"
   },
   "rules": {
+
     "no-unused-vars": [
       1,
       {
@@ -28,3 +29,5 @@
     ]
   }
 }
+
+
