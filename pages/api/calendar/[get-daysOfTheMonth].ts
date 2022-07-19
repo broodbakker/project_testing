@@ -7,7 +7,7 @@ export default async function handler(
 ) {
   await sleep1Second();
 
-  console.log(res.query);
+  // console.log(res.query);
 
   if (req.query.country === 'jan') {
     console.log('jan');
